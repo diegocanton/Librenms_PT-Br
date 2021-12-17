@@ -1,1 +1,10 @@
 Não alterar a pasta "en" (conteúdo original), serve de base.
+
+A pasta "pt-br" está sendo traduzida, os arquivos ainda podem conter partes em inglês.
+
+Os arquivos de linguagem originais se encontram em: https://github.com/librenms/librenms/tree/master/resources/lang
+
+Sobre as traduções: https://docs.librenms.org/Developing/Dynamic-Config/
+
+Para atualizar o javascript de traduções, execute:
+./lnms translation:generate
