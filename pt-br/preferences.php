@@ -12,7 +12,7 @@ return [
     |
     */
 
-    'title' => 'Preferences',
-    'lang' => 'English',
+    'title' => 'Preferências',
+    'lang' => 'Português',
 
 ];
