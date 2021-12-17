@@ -24,3 +24,6 @@ return [
     'lang' => 'Português',
 ];
 ----------------------------------------
+
+Quando encontrar ":TEXTO", trata-se de variável, não traduzir, apenas aloca-la no devido local do texto, de modo a manter o melhor entendimento.
+Evite traduriz alguns termos técnicos, para não prejudicar o entendimento de coisas que são rotineiras, exemplo em SNMP "SNMP community", colocar "comunidade SNMP" pode gerar confusão.
