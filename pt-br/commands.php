@@ -75,12 +75,12 @@ return [
             'device spec' => 'Especificação do dispositivo para sondar: device_id, hostname, curinga, ímpar, par, todos',
         ],
         'options' => [
-            'modules' => 'Specify single module to be run. Comma separate modules, submodules may be added with /',
-            'no-data' => 'Do not update datastores (RRD, InfluxDB, etc)',
+            'modules' => 'Especifique um único módulo a ser executado. Módulos separados por vírgulas, submódulos podem ser adicionados com /',
+            'no-data' => 'Não atualizar o armazenamento de dados (RRD, InfluxDB, etc)',
         ],
         'errors' => [
-            'db_connect' => 'Failed to connect to database. Verify database service is running and connection settings.',
-            'db_auth' => 'Failed to connect to database. Verify credentials: :error',
+            'db_connect' => 'Falha ao conectar ao banco de dados. Verifique se o serviço de banco de dados está em execução e as configurações de conexão.',
+            'db_auth' => 'Falha ao conectar ao banco de dados. Verifique as credenciais: :error',
         ],
     ],
     'key:rotate' => [
