@@ -8,3 +8,19 @@ Sobre as traduções: https://docs.librenms.org/Developing/Dynamic-Config/
 
 Para atualizar o javascript de traduções, execute:
 ./lnms translation:generate
+
+Nos arquivos, só traduzir as partes após "=>", exemplo:
+
+--------------- Original ---------------
+return [
+    'title' => 'Preferences',
+    'lang' => 'English',
+];
+----------------------------------------
+
+--------------- Tradução ---------------
+return [
+    'title' => 'Preferências',
+    'lang' => 'Português',
+];
+----------------------------------------
