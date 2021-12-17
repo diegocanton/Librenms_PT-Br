@@ -1,0 +1,65 @@
+<?php
+
+// https://www.iana.org/assignments/bgp-parameters/bgp-parameters.xhtml#bgp-parameters-3
+return [
+    'error_codes' => [
+        0 => 'Reservado',
+        1 => 'Message Header Error',
+        2 => 'OPEN Message Error',
+        3 => 'UPDATE Message Error',
+        4 => 'Hold Timer Expired',
+        5 => 'Finite State Machine Error',
+        6 => 'Cease',
+        7 => 'ROUTE-REFRESH Message Error',
+    ],
+    'error_subcodes' => [
+        1 => [
+            0 => 'Inespecífico',
+            1 => 'Conexão não sincronizada',
+            2 => 'Comprimento da Mensagem Errado',
+            3 => 'Tipo da Mensagem Errado',
+        ],
+        2 => [
+            0 => 'Inespecífico',
+            1 => 'Versão não Suportada',
+            2 => 'Bad Peer AS - ASN do Peer incorreto',
+            3 => 'Bad BGP Identifier',
+            4 => 'Unsuported Optional Parameter - Parâmetros Opcionais não suportados',
+            5 => '[Descontinuado]',
+            6 => 'Tempo de espera inaceitável (Hold Time)',
+            7 => 'Role Mismatch (Temporary BGP Draft)',
+        ],
+        3 => [
+            0 => 'Inespecífico',
+            1 => 'Lista de Atributos Malformada',
+            2 => 'Atributo Well-known não reconhecido',
+            3 => 'Atributo Well-known faltando',
+            4 => 'Atributo Flags Error',
+            5 => 'Atributo Length Error',
+            6 => 'Atributo ORIGIN Inválido',
+            7 => '[Descontinuado]',
+            8 => 'Atributo NEXT_HOP Inválido',
+            9 => 'Erro em Atributo Opcional',
+            10 => 'Campo Network inválido',
+            11 => 'AS_PATH Malformado',
+        ],
+        5 => [
+            0 => 'Erro Não Especificado',
+            1 => 'Mensagem Inesperada recebida no estado OpenSent',
+            2 => 'Mensagem Inesperada recebida no estado OpenConfirm',
+            3 => 'Mensagem Inesperada recebida no estado Established',
+        ],
+        6 => [
+            0 => 'Reservado',
+            1 => 'Número máximo de prefixos alcançados',
+            2 => 'Shutdown Administrativo',
+            3 => 'Peer Desconfigurado',
+            4 => 'Reset Administrativo',
+            5 => 'Conexão Rejeitada',
+            6 => 'Outra Mudança de Configuração',
+            7 => 'Resolução de colisão de conexão',
+            8 => 'Sem Recursos',
+            9 => 'Hard Reset',
+        ],
+    ],
+];
