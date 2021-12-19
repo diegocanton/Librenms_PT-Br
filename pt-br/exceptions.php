@@ -2,30 +2,30 @@
 
 return [
     'database_connect' => [
-        'title' => 'Error connecting to database',
+        'title' => 'Erro ao conectar ao banco de dados',
     ],
     'database_inconsistent' => [
-        'title' => 'Database inconsistent',
-        'header' => 'Database inconsistencies found during a database error, please fix to continue.',
+        'title' => 'Banco de dados inconsistente',
+        'header' => 'Inconsistências de banco de dados encontradas durante um erro no banco de dados, corrija para continuar.',
     ],
     'dusk_unsafe' => [
-        'title' => 'It is unsafe to run Dusk in production',
-        'message' => 'Run ":command" to remove Dusk or if you are a developer set the appropriate APP_ENV',
+        'title' => 'Não é seguro executar o Dusk em produção',
+        'message' => 'Execute ":command" para remover o Dusk ou se você for um desenvolvedor, defina o apropriado APP_ENV',
     ],
     'file_write_failed' => [
-        'title' => 'Error: Could not write to file',
-        'message' => 'Failed to write to file (:file).  Please check permissions and SELinux/AppArmor if applicable.',
+        'title' => 'Erro: Não foi possível escrever no arquivo',
+        'message' => 'Falha ao escrecer no arquivo (:file). Por favor, verifique as permissões e se SELinux/AppArmor se estiver em uso.',
     ],
     'ldap_missing' => [
-        'title' => 'PHP LDAP support missing',
-        'message' => 'PHP does not support LDAP, please install or enable the PHP LDAP extension',
+        'title' => 'Falta suporte para PHP LDAP',
+        'message' => 'PHP não suporta LDAP, por favor instale ou ative a extensão PHP LDAP',
     ],
     'maximum_execution_time_exceeded' => [
-        'title' => 'Maximum execution time of :seconds second exceeded|Maximum execution time of :seconds seconds exceeded',
-        'message' => 'Page load exceeded your maximum execution time configured in PHP.  Either increase max_execution_time in your php.ini or improve server hardware',
+        'title' => 'Tempo máximo de execução de :seconds segundos excedido|Tempo máximo de execução de :seconds segundos excedido',
+        'message' => 'O carregamento da página excedeu seu tempo máximo de execução configurado em PHP. Aumente max_execution_time em seu php.ini ou melhore o hardware do servidor',
     ],
     'unserializable_route_cache' => [
-        'title' => 'Error caused by PHP version mismatch',
-        'message' => 'The version of PHP your web server is running (:web_version) does not match the CLI version (:cli_version)',
+        'title' => 'Erro causado por incompatibilidade de versão do PHP',
+        'message' => 'A versão do PHP que seu servidor web está executando (:web_version) não corresponde à versão CLI (:cli_version)',
     ],
 ];
