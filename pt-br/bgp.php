@@ -26,7 +26,7 @@ return [
             3 => 'Bad BGP Identifier',
             4 => 'Unsuported Optional Parameter - Parâmetros Opcionais não suportados',
             5 => '[Descontinuado]',
-            6 => 'Tempo de espera inaceitável (Hold Time)',
+            6 => 'Tempo de espera ultrapassado (Hold Time)',
             7 => 'Role Mismatch (Temporary BGP Draft)',
         ],
         3 => [
