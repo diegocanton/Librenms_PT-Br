@@ -155,6 +155,6 @@ return [
         ],
         'password-request' => "Por favor digite a senha do usuário",
         'success' => 'Sucesso ao adicionar o usuário: :username',
-        'wrong-auth' => 'Aviso! Você não poderá fazer o login com este usuário porque não está usando a autenticação MySQL',
+        'wrong-auth' => 'Aviso! Você não poderá fazer o login com este usuário porque não está usando a autenticação MySQL.',
     ],
 ];
