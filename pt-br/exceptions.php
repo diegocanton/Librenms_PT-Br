@@ -26,6 +26,6 @@ return [
     ],
     'unserializable_route_cache' => [
         'title' => 'Erro causado por incompatibilidade de versão do PHP',
-        'message' => 'A versão do PHP que seu servidor web está executando (:web_version) não corresponde à versão CLI (:cli_version)',
+        'message' => 'A versão do PHP que seu servidor web está executando (:web_version) não corresponde à versão do CLI (:cli_version)',
     ],
 ];
