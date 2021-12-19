@@ -2,14 +2,14 @@
 
 return [
     'attributes' => [
-        'features' => 'OS Features',
+        'features' => 'Recursos do SO',
         'hardware' => 'Hardware',
-        'icon' => 'Icon',
-        'location' => 'Location',
-        'os' => 'Device OS',
+        'icon' => 'Icone',
+        'location' => 'Localização',
+        'os' => 'SO do dispositivo',
         'serial' => 'Serial',
         'sysName' => 'sysName',
-        'version' => 'OS Version',
-        'type' => 'Device type',
+        'version' => 'Versão do SO',
+        'type' => 'Tipo de dispositivo',
     ],
 ];
