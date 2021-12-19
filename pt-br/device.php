@@ -4,7 +4,7 @@ return [
     'attributes' => [
         'features' => 'Recursos do SO',
         'hardware' => 'Hardware',
-        'icon' => 'Icone',
+        'icon' => 'Ícone',
         'location' => 'Localização',
         'os' => 'SO do dispositivo',
         'serial' => 'Serial',
