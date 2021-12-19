@@ -6,7 +6,7 @@ return [
             'dhcp' => 'DHCP',
             'dlsw' => 'DLSW',
             'dns' => 'DNS',
-            'DnsQuery' => 'DNS Query',
+            'DnsQuery' => 'Pesquisa DNS',
             'echo' => 'ICMP Ping',
             'ethernetJitter' => 'Ethernet Jitter',
             'ethernetPing' => 'Ethernet Ping',
