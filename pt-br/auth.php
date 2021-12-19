@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Auth',
+    'title' => 'Autenticação',
     'failed' => 'Credenciais não encontradas.',
     'throttle' => 'Muitas tentativas de login. Tente novamente em :seconds segundos.',
 
