@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Syslog',
+    'title' => 'Syslog - Systema de Log',
     'severity' => [
         '0' => 'Emergency',
         '1' => 'Alert',
