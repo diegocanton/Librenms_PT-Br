@@ -14,32 +14,32 @@ return [
     'title' => 'Wireless',
     'ap-count' => [
         'short' => 'APs',
-        'long' => 'AP Count',
+        'long' => 'Quantidade de AP',
         'unit' => '',
     ],
     'clients' => [
-        'short' => 'Clients',
-        'long' => 'Client Count',
+        'short' => 'Clientes',
+        'long' => 'Quantidade de Clientes',
         'unit' => '',
     ],
     'capacity' => [
-        'short' => 'Capacity',
-        'long' => 'Capacity',
+        'short' => 'Capacidade',
+        'long' => 'Capacidade',
         'unit' => '%',
     ],
     'ccq' => [
         'short' => 'CCQ',
-        'long' => 'Client Connection Quality',
+        'long' => 'Qualidade da Conexão do Cliente (Client Connection Quality)',
         'unit' => '%',
     ],
     'errors' => [
-        'short' => 'Errors',
-        'long' => 'Error Count',
+        'short' => 'Erros',
+        'long' => 'Quantidade de Error',
         'unit' => '',
     ],
     'error-ratio' => [
-        'short' => 'Error Ratio',
-        'long' => 'Bit/Packet Error Ratio',
+        'short' => 'Razão dos Erro',
+        'long' => 'Razão dos Erro Bit/Packet',
         'unit' => '%',
     ],
     'error-rate' => [
@@ -48,13 +48,13 @@ return [
         'unit' => 'bps',
     ],
     'frequency' => [
-        'short' => 'Frequency',
-        'long' => 'Frequency',
+        'short' => 'Frequência',
+        'long' => 'Frequência',
         'unit' => 'MHz',
     ],
     'distance' => [
-        'short' => 'Distance',
-        'long' => 'Distance',
+        'short' => 'Distância',
+        'long' => 'Distância',
         'unit' => 'm',
     ],
     'mse' => [
@@ -64,22 +64,22 @@ return [
     ],
     'noise-floor' => [
         'short' => 'Noise Floor',
-        'long' => 'Noise Floor',
+        'long' => 'Piso de ruído',
         'unit' => 'dBm',
     ],
     'power' => [
-        'short' => 'Power/Signal',
-        'long' => 'TX/RX Power or Signal',
+        'short' => 'Potência/Sinal',
+        'long' => 'Potência ou Sinal de TX/RX',
         'unit' => 'dBm',
     ],
     'quality' => [
-        'short' => 'Quality',
-        'long' => 'Quality',
+        'short' => 'Qualidade',
+        'long' => 'Qualidade',
         'unit' => '%',
     ],
     'rate' => [
-        'short' => 'Rate',
-        'long' => 'TX/RX Rate',
+        'short' => 'Taxa',
+        'long' => 'Taxa de TX/RX',
         'unit' => 'bps',
     ],
     'rssi' => [
@@ -113,8 +113,8 @@ return [
         'unit' => 'dB',
     ],
     'utilization' => [
-        'short' => 'Utilization',
-        'long' => 'utilization',
+        'short' => 'Utilização',
+        'long' => 'utilização',
         'unit' => '%',
     ],
     'xpi' => [
