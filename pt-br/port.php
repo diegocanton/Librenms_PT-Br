@@ -2,7 +2,7 @@
 
 return [
     'groups' => [
-        'updated' => ':port: groups updated',
-        'none' => ':port no update requested',
+        'updated' => 'Grupo :port: Atualizado',
+        'none' => ':port nenhuma atualização solicitada',
     ],
 ];
